@@ -13,6 +13,8 @@
     <modules>
         <module>eureka-server-register</module>
         <module>service-provider-uc</module>
+        <module>service-order</module>
+        <module>commons</module>
     </modules>
 
 
@@ -31,6 +33,15 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>24.1-jre</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+
+
 </project>
