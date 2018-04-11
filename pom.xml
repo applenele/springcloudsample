@@ -35,7 +35,6 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
@@ -47,6 +46,13 @@
                 <artifactId>java-jwt</artifactId>
                 <version>3.1.0</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.dangdang</groupId>
+                <artifactId>sharding-jdbc-core</artifactId>
+                <version>1.5.4.1</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
