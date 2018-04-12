@@ -1,6 +1,7 @@
 package com.smallcode.springcouldsample.order.controller;
 
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.smallcode.springcouldsample.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,6 +14,7 @@ public class HomeController {
     private OrderService orderService;
 
     @GetMapping(value = "/sayHi")
+
     public String orderHi(String name) {
         return orderService.hiService(name);
     }
@@ -21,4 +23,6 @@ public class HomeController {
     public String getUser(int id) {
         return orderService.getUser(id);
     }
+
+
 }

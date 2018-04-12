@@ -7,3 +7,6 @@ server:
 spring:
   application:
     name: service-order
+
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 6000 #为了测试Hystrix的fallback效果，此处将超时时间设置成1毫秒
