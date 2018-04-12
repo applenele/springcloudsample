@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient("service-uc")
+@FeignClient(name = "service-uc",fallback = HystrixUcClientFallback.class)
 public interface UcClient {
 
     @RequestMapping(method = RequestMethod.GET, value = "/getUser")

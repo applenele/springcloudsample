@@ -22,7 +22,6 @@ public class HomeController {
 
     @GetMapping(value = "/getUser")
     public String getUser(int id) {
-
         User user = userRepository.findOne(id);
         return JsonUtil.toString(user);
     }
