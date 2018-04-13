@@ -9,6 +9,7 @@
         <module name="commons" />
         <module name="eureka-server-register" />
         <module name="service-clinic" />
+        <module name="service-gateway" />
         <module name="service-order" />
         <module name="service-provider-uc" />
       </profile>

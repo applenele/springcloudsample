@@ -16,6 +16,7 @@
         <module>service-order</module>
         <module>commons</module>
         <module>service-clinic</module>
+        <module>service-gateway</module>
     </modules>
 
 
