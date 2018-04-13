@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="commons" />
         <module name="eureka-server-register" />
+        <module name="hystrix-dashbord" />
         <module name="service-clinic" />
         <module name="service-gateway" />
         <module name="service-order" />

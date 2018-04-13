@@ -17,6 +17,7 @@
         <module>commons</module>
         <module>service-clinic</module>
         <module>service-gateway</module>
+        <module>hystrix-dashbord</module>
     </modules>
 
 
