@@ -18,6 +18,7 @@ zuul:
   ignored-services: '*'
   routes:
       service-order: /order/**
+      service-clinic: /clinic/**
 
 
 
