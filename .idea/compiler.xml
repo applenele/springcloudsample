@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="commons" />
+        <module name="eureka-server" />
         <module name="eureka-server-register" />
         <module name="hystrix-dashbord" />
         <module name="service-clinic" />
@@ -15,8 +16,5 @@
         <module name="service-provider-uc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="eurekaserver" target="1.6" />
-    </bytecodeTargetLevel>
   </component>
 </project>

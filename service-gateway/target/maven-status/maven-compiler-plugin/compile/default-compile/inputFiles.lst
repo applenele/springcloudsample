@@ -1,0 +1,3 @@
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-gateway/src/main/java/com/smallcode/springcloudsample/gateway/GatewayApplication.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-gateway/src/main/java/com/smallcode/springcloudsample/gateway/filter/PreRequestLogFilter.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-gateway/src/main/java/com/smallcode/springcloudsample/gateway/fallback/OrderFallbackProvider.java

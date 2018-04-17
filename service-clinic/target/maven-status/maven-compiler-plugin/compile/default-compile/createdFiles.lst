@@ -1,0 +1,11 @@
+com/smallcode/springcloud/clinic/service/UcClient.class
+com/smallcode/springcloud/clinic/config/ModuloTableShardingAlgorithm.class
+com/smallcode/springcloud/clinic/ClinicApplication.class
+com/smallcode/springcloud/clinic/bean/UserSexEnum.class
+com/smallcode/springcloud/clinic/config/DataSourceConfig.class
+com/smallcode/springcloud/clinic/service/User1Service.class
+com/smallcode/springcloud/clinic/domain/UserEntity.class
+com/smallcode/springcloud/clinic/mapper/User1Mapper.class
+com/smallcode/springcloud/clinic/service/HystrixUcClientFallback.class
+com/smallcode/springcloud/clinic/config/ModuloDatabaseShardingAlgorithm.class
+com/smallcode/springcloud/clinic/controller/UserController.class

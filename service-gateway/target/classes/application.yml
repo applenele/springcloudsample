@@ -1,0 +1,25 @@
+server:
+  port: 9040
+
+spring:
+  application:
+    name: service-zuul-gateway
+eureka:
+  client:
+    service-url:
+         defaultZone: http://localhost:9000/eureka/
+
+
+management:
+  security:
+    enabled: false
+
+zuul:
+  ignored-services: '*'
+  routes:
+      service-order: /order/**
+      service-clinic: /clinic/**
+
+
+
+

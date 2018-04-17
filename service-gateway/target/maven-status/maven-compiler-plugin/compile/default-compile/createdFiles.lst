@@ -1,0 +1,4 @@
+com/smallcode/springcloudsample/gateway/GatewayApplication.class
+com/smallcode/springcloudsample/gateway/fallback/OrderFallbackProvider.class
+com/smallcode/springcloudsample/gateway/fallback/OrderFallbackProvider$1.class
+com/smallcode/springcloudsample/gateway/filter/PreRequestLogFilter.class

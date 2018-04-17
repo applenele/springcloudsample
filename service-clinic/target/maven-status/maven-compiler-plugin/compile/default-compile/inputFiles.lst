@@ -1,0 +1,11 @@
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/controller/UserController.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/service/User1Service.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/config/ModuloTableShardingAlgorithm.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/bean/UserSexEnum.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/domain/UserEntity.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/config/DataSourceConfig.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/ClinicApplication.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/mapper/User1Mapper.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/config/ModuloDatabaseShardingAlgorithm.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/service/HystrixUcClientFallback.java
+/Users/niele/workplaces/code/java/springcloud/springcloudsample/service-clinic/src/main/java/com/smallcode/springcloud/clinic/service/UcClient.java
