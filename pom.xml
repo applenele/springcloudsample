@@ -18,6 +18,7 @@
         <module>service-clinic</module>
         <module>service-gateway</module>
         <module>hystrix-dashbord</module>
+        <module>zipkin-server</module>
     </modules>
 
 
