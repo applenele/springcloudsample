@@ -1,0 +1,15 @@
+server:
+  port: 9002
+
+eureka:
+  instance:
+    hostname: node2
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://node1:9001/eureka/
+
+spring:
+  application:
+    name: node2

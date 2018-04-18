@@ -13,7 +13,7 @@ public class OrderService {
     @Autowired
     RestTemplate restTemplate;
 
-    @HystrixCommand(fallbackMethod = "hiCallback")
+    @HystrixCommand(defaultFallback = "defaultFallback")
     public String hiService(String name) {
         return restTemplate.getForObject("http://SERVICE-UC/hi?name=" + name, String.class);
     }
@@ -24,6 +24,10 @@ public class OrderService {
 
     public String hiCallback(String name) {
         return "test";
+    }
+
+    public String defaultFallback(){
+        return "dd";
     }
 
 }
