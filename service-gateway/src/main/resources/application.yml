@@ -19,6 +19,7 @@ zuul:
   routes:
       service-order: /order/**
       service-clinic: /clinic/**
+      service-uc: /uc/**
 
 
 

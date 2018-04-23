@@ -15,7 +15,7 @@ public class OrderService {
 
     @HystrixCommand(defaultFallback = "defaultFallback")
     public String hiService(String name) {
-        return restTemplate.getForObject("http://SERVICE-UC/hi?name=" + name, String.class);
+        return restTemplate.getForObject("http://SERVICE-ZUUL-GATEWAY/uc/hi?name=" + name, String.class);
     }
 
     public String getUser(int id) {
